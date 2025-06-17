@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/data/6th%20sem/Big%20data%20analytics/car%20insurance%20fraud/mlruns/932038154031362487/0c167ef93a4c4c199c305eb4ef323ed5/artifacts
+end_time: 1750179030144
+entry_point_name: ''
+experiment_id: '932038154031362487'
+lifecycle_stage: active
+run_id: 0c167ef93a4c4c199c305eb4ef323ed5
+run_name: XGBoost_20250617_215023
+run_uuid: 0c167ef93a4c4c199c305eb4ef323ed5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750179023208
+status: 3
+tags: []
+user_id: Noor

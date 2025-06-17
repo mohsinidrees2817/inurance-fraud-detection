@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/data/6th%20sem/Big%20data%20analytics/car%20insurance%20fraud/mlruns/932038154031362487/33872cb34fba4229be1b6d3adbdece2d/artifacts
+end_time: 1750179023198
+entry_point_name: ''
+experiment_id: '932038154031362487'
+lifecycle_stage: active
+run_id: 33872cb34fba4229be1b6d3adbdece2d
+run_name: Gradient Boosting_20250617_215016
+run_uuid: 33872cb34fba4229be1b6d3adbdece2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750179016412
+status: 3
+tags: []
+user_id: Noor

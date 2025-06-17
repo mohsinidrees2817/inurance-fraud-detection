@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/data/6th%20sem/Big%20data%20analytics/car%20insurance%20fraud/mlruns/932038154031362487/96626606312746a1844112bf1f4f58c4/artifacts
+end_time: 1750179056735
+entry_point_name: ''
+experiment_id: '932038154031362487'
+lifecycle_stage: active
+run_id: 96626606312746a1844112bf1f4f58c4
+run_name: K-Nearest Neighbors_20250617_215050
+run_uuid: 96626606312746a1844112bf1f4f58c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750179050976
+status: 3
+tags: []
+user_id: Noor

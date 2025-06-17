@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/data/6th%20sem/Big%20data%20analytics/car%20insurance%20fraud/mlruns/932038154031362487/3454887a7bc14b8fad6e7bd9c004a466/artifacts
+end_time: 1750179045785
+entry_point_name: ''
+experiment_id: '932038154031362487'
+lifecycle_stage: active
+run_id: 3454887a7bc14b8fad6e7bd9c004a466
+run_name: Naive Bayes_20250617_215040
+run_uuid: 3454887a7bc14b8fad6e7bd9c004a466
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750179040583
+status: 3
+tags: []
+user_id: Noor

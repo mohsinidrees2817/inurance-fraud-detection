@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/data/6th%20sem/Big%20data%20analytics/car%20insurance%20fraud/mlruns/932038154031362487/8a4a8dfb3baa4bb3ba0397c8c3615fc5/artifacts
+end_time: 1750179008752
+entry_point_name: ''
+experiment_id: '932038154031362487'
+lifecycle_stage: active
+run_id: 8a4a8dfb3baa4bb3ba0397c8c3615fc5
+run_name: Logistic Regression_20250617_214951
+run_uuid: 8a4a8dfb3baa4bb3ba0397c8c3615fc5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750178992001
+status: 3
+tags: []
+user_id: Noor

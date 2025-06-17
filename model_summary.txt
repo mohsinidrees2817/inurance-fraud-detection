@@ -1,0 +1,41 @@
+
+INSURANCE FRAUD DETECTION MODEL SUMMARY
+======================================
+
+Best Model: Gradient Boosting
+Training Data Size: 800 samples
+Test Data Size: 200 samples
+Number of Features: 20
+
+Performance Metrics:
+- Accuracy: 0.8250
+- Precision: 0.6346
+- Recall: 0.6735
+- F1-Score: 0.6535
+- ROC-AUC: 0.8162
+
+Cross-Validation F1-Score: 0.8899 (+/- 0.0680)
+
+Selected Features:
+- months_as_customer
+- age
+- policy_annual_premium
+- umbrella_limit
+- number_of_vehicles_involved
+- witnesses
+- total_claim_amount
+- injury_claim
+- property_claim
+- policy_bind_date_encoded
+- policy_state_encoded
+- insured_hobbies_encoded
+- incident_type_encoded
+- collision_type_encoded
+- incident_severity_encoded
+- auto_model_encoded
+- vehicle_age
+- claim_per_vehicle
+- total_claim_ratio
+- high_value_claim
+
+Model saved as: fraud_detection_model.pkl

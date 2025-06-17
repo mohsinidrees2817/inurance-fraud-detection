@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: fraud_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - "./backend/main.py:/app/main.py"
+      - "./backend/fraud_detection_model.pkl:/app/fraud_detection_model.pkl"
+      - "./backend/insurance_claims.csv:/app/insurance_claims.csv"
+      - "./backend/risk_factors.json:/app/risk_factors.json" # Ensure this file exists in backend/
+    environment:
+      PYTHONUNBUFFERED: 1
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: fraud_frontend
+    ports:
+      - "8501:8501"
+    volumes:
+      - "./frontend/app.py:/app/app.py"
+      - "./frontend/insurance_claims.csv:/app/insurance_claims.csv"
+    depends_on:
+      - backend
+    environment:
+      FASTAPI_URL: http://backend:8000
