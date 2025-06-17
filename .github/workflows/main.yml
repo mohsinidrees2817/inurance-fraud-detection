@@ -73,13 +73,15 @@ jobs:
             docker pull ghcr.io/${{ github.repository }}/noor-backend:latest
             docker pull ghcr.io/${{ github.repository }}/noor-frontend:latest
 
-            # Stop and remove old containers if they exist
+            # Stop and remove old containers
             docker stop noor-backend || true && docker rm noor-backend || true
             docker stop noor-frontend || true && docker rm noor-frontend || true
 
             # Run backend container (on port 8000)
             docker run -d --name noor-backend -p 8000:8000 ghcr.io/${{ github.repository }}/noor-backend:latest
 
-            # Run frontend container (on port 8501)
-            docker run -d --name noor-frontend -p 8501:8501 ghcr.io/${{ github.repository }}/noor-frontend:latest
+            # Run frontend container (on port 8501) WITH ENV VAR
+            docker run -d --name noor-frontend -p 8501:8501 \
+              -e FASTAPI_URL=http://${{ secrets.EC2_HOST }}:8000 \
+              ghcr.io/${{ github.repository }}/noor-frontend:latest
           EOF
